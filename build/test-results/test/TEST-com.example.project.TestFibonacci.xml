@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TestFibonacci" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-01-07T00:42:42" hostname="codespaces-72a32e" time="0.065">
+<testsuite name="com.example.project.TestFibonacci" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-01-08T00:31:17" hostname="codespaces-72a32e" time="0.082">
   <properties/>
-  <testcase name="testGetIndexOf()" classname="com.example.project.TestFibonacci" time="0.029"/>
-  <testcase name="testGetSequence()" classname="com.example.project.TestFibonacci" time="0.002"/>
-  <testcase name="testExtendBy()" classname="com.example.project.TestFibonacci" time="0.002"/>
-  <testcase name="testFibonacciString()" classname="com.example.project.TestFibonacci" time="0.017"/>
+  <testcase name="testGetIndexOf()" classname="com.example.project.TestFibonacci" time="0.026"/>
+  <testcase name="testGetSequence()" classname="com.example.project.TestFibonacci" time="0.005"/>
+  <testcase name="testExtendBy()" classname="com.example.project.TestFibonacci" time="0.003"/>
+  <testcase name="testFibonacciString()" classname="com.example.project.TestFibonacci" time="0.029"/>
   <testcase name="testConstructor()" classname="com.example.project.TestFibonacci" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
