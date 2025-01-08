@@ -18,10 +18,7 @@ public class HorseBarn {
     /** Assigns stalls to reference sampleHorses
      */
     public HorseBarn(Horse[] sampleStalls) {
-        stalls = new Horse[sampleStalls.length];
-        for(int i = 0; i < sampleStalls.length; i++){
-            stalls[i] = sampleStalls[i];
-        }
+        stalls = sampleStalls;
     }
 
     /** Getter/accessor method for stalls
@@ -57,7 +54,6 @@ public class HorseBarn {
      */
     public void placeHorse(Horse horse, int stall) {
         int idx = findHorseStall(horse.getName());
-        stalls[stall] = horse;
         if(idx != -1){
             stalls[idx] = null;
         }
